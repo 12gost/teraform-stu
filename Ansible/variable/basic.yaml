@@ -1,0 +1,10 @@
+- hosts: localhost
+  vars:
+    basic_vars: My First Variable display
+  tasks:
+  - name: 
+    debug:
+      msg: "{{basic_vars}}
+
+      #ansible-playbook basic.yaml
+      #by above script we can run the script

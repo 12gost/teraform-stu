@@ -1,0 +1,11 @@
+- hosts: localhost
+  #vars:
+  #  basic_vars: My First Variable display
+  tasks:
+  - name: 
+    debug:
+      msg: "{{basic_vars}}
+
+
+      #to set the value from console.we can give the value like.
+      #ansible-playbook -e "basic_vars=CLI" cli.yaml

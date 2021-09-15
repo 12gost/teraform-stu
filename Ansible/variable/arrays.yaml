@@ -1,0 +1,16 @@
+--- 
+- 
+  hosts: localhost
+  tasks: 
+    - 
+      debug: 
+        msg: "{{courses [0] }}"
+      name: ~
+  vars: 
+    courses: 
+      - Ansible
+      - Terraform
+
+
+      #ansible-playbook basic.yaml
+      #by above script we can run the script
